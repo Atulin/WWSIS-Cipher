@@ -1,0 +1,11 @@
+C:\Users\student\RiderProjects\Cipher\Cipher\bin\Debug\netcoreapp2.1\Cipher.deps.json
+C:\Users\student\RiderProjects\Cipher\Cipher\bin\Debug\netcoreapp2.1\Cipher.runtimeconfig.json
+C:\Users\student\RiderProjects\Cipher\Cipher\bin\Debug\netcoreapp2.1\Cipher.runtimeconfig.dev.json
+C:\Users\student\RiderProjects\Cipher\Cipher\bin\Debug\netcoreapp2.1\Cipher.dll
+C:\Users\student\RiderProjects\Cipher\Cipher\bin\Debug\netcoreapp2.1\Cipher.pdb
+C:\Users\student\RiderProjects\Cipher\Cipher\obj\Debug\netcoreapp2.1\Cipher.csprojAssemblyReference.cache
+C:\Users\student\RiderProjects\Cipher\Cipher\obj\Debug\netcoreapp2.1\Cipher.csproj.CoreCompileInputs.cache
+C:\Users\student\RiderProjects\Cipher\Cipher\obj\Debug\netcoreapp2.1\Cipher.AssemblyInfoInputs.cache
+C:\Users\student\RiderProjects\Cipher\Cipher\obj\Debug\netcoreapp2.1\Cipher.AssemblyInfo.cs
+C:\Users\student\RiderProjects\Cipher\Cipher\obj\Debug\netcoreapp2.1\Cipher.dll
+C:\Users\student\RiderProjects\Cipher\Cipher\obj\Debug\netcoreapp2.1\Cipher.pdb
