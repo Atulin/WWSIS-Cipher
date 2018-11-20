@@ -1,13 +1,13 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\student\\RiderProjects\\Cipher\\Cipher\\Cipher.csproj",
+    "projectUniqueName": "G:\\VS Projects\\WWSIS-Cipher\\Cipher\\Cipher.csproj",
     "projectName": "Cipher",
-    "projectPath": "C:\\Users\\student\\RiderProjects\\Cipher\\Cipher\\Cipher.csproj",
-    "outputPath": "C:\\Users\\student\\RiderProjects\\Cipher\\Cipher\\obj\\",
+    "projectPath": "G:\\VS Projects\\WWSIS-Cipher\\Cipher\\Cipher.csproj",
+    "outputPath": "G:\\VS Projects\\WWSIS-Cipher\\Cipher\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.1"

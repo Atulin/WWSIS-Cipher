@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70817a9a-fc35-42c4-91d8-044a39e82c68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Cipher/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Cipher/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Cipher/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Cipher/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Cipher/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cipher/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cipher/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cipher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cipher/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cipher/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Cipher/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cipher/bin/Debug/netcoreapp2.1/Cipher.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Cipher/bin/Debug/netcoreapp2.1/Cipher.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cipher/bin/Debug/netcoreapp2.1/Cipher.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Cipher/bin/Debug/netcoreapp2.1/Cipher.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cipher/bin/Debug/netcoreapp2.1/Cipher.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cipher/bin/Debug/netcoreapp2.1/Cipher.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cipher/obj/Cipher.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Cipher/obj/Cipher.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cipher/obj/Cipher.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Cipher/obj/Cipher.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cipher/obj/Cipher.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Cipher/obj/Cipher.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cipher/obj/Debug/netcoreapp2.1/Cipher.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Cipher/obj/Debug/netcoreapp2.1/Cipher.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cipher/obj/Debug/netcoreapp2.1/Cipher.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Cipher/obj/Debug/netcoreapp2.1/Cipher.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cipher/obj/Debug/netcoreapp2.1/Cipher.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Cipher/obj/Debug/netcoreapp2.1/Cipher.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cipher/obj/Debug/netcoreapp2.1/Cipher.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Cipher/obj/Debug/netcoreapp2.1/Cipher.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cipher/obj/Debug/netcoreapp2.1/Cipher.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Cipher/obj/Debug/netcoreapp2.1/Cipher.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cipher/obj/Debug/netcoreapp2.1/Cipher.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Cipher/obj/Debug/netcoreapp2.1/Cipher.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cipher/obj/Debug/netcoreapp2.1/Cipher.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Cipher/obj/Debug/netcoreapp2.1/Cipher.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cipher/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cipher/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cipher/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Cipher/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,25 +59,49 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="2096961895">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="1335" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="1335" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cipher/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="-1792">
+              <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
               <folding>
-                <marker date="1542712440804" expanded="false" signature="6:85" ph="..." />
-                <marker date="1542712440804" expanded="true" signature="103:1742" ph="{...}" />
-                <marker date="1542712440804" expanded="true" signature="123:1244" ph="{...}" />
-                <marker date="1542712440804" expanded="true" signature="169:1238" ph="{...}" />
-                <marker date="1542712440804" expanded="true" signature="607:672" ph="{...}" />
-                <marker date="1542712440804" expanded="true" signature="995:1061" ph="{...}" />
-                <marker date="1542712440804" expanded="true" signature="1268:1740" ph="{...}" />
-                <marker date="1542712440804" expanded="true" signature="1333:1734" ph="{...}" />
-                <marker date="1542712440804" expanded="true" signature="1533:1674" ph="{...}" />
-                <marker date="1542712440804" expanded="true" signature="1589:1660" ph="{...}" />
+                <marker date="1542754347965" expanded="false" signature="6:139" ph="..." />
+                <marker date="1542754347965" expanded="true" signature="157:3753" ph="{...}" />
+                <marker date="1542754347965" expanded="true" signature="177:781" ph="{...}" />
+                <marker date="1542754347965" expanded="true" signature="223:775" ph="{...}" />
+                <marker date="1542754347965" expanded="true" signature="807:2317" ph="{...}" />
+                <marker date="1542754347965" expanded="true" signature="884:1125" ph="{...}" />
+                <marker date="1542754347965" expanded="true" signature="1004:1087" ph="{...}" />
+                <marker date="1542754347965" expanded="true" signature="1182:1621" ph="{...}" />
+                <marker date="1542754347965" expanded="true" signature="1314:1576" ph="{...}" />
+                <marker date="1542754347965" expanded="true" signature="1689:2103" ph="{...}" />
+                <marker date="1542754347965" expanded="true" signature="1812:2070" ph="{...}" />
+                <marker date="1542754347965" expanded="true" signature="1954:2056" ph="{...}" />
+                <marker date="1542754347965" expanded="true" signature="2172:2311" ph="{...}" />
+                <marker date="1542754347965" expanded="true" signature="2342:3751" ph="{...}" />
+                <marker date="1542754347965" expanded="true" signature="2412:3126" ph="{...}" />
+                <marker date="1542754347965" expanded="true" signature="3188:3745" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -105,7 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -113,16 +149,12 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Cipher" type="24d0babc:SolutionExplorerModelNode" />
             </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Cipher" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Cipher" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,11 +213,12 @@
       <workItem from="1542210058683" duration="1044000" />
       <workItem from="1542213164406" duration="696000" />
       <workItem from="1542711345153" duration="1094000" />
+      <workItem from="1542749443405" duration="4902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2834000" />
+    <option name="totallyTimeSpent" value="7736000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -198,13 +231,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20202559" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20415778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -214,9 +248,9 @@
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Build" order="14" weight="0.3286334" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -246,19 +280,25 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Cipher/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        <state relative-caret-position="-1792">
+          <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
           <folding>
-            <marker date="1542712440804" expanded="false" signature="6:85" ph="..." />
-            <marker date="1542712440804" expanded="true" signature="103:1742" ph="{...}" />
-            <marker date="1542712440804" expanded="true" signature="123:1244" ph="{...}" />
-            <marker date="1542712440804" expanded="true" signature="169:1238" ph="{...}" />
-            <marker date="1542712440804" expanded="true" signature="607:672" ph="{...}" />
-            <marker date="1542712440804" expanded="true" signature="995:1061" ph="{...}" />
-            <marker date="1542712440804" expanded="true" signature="1268:1740" ph="{...}" />
-            <marker date="1542712440804" expanded="true" signature="1333:1734" ph="{...}" />
-            <marker date="1542712440804" expanded="true" signature="1533:1674" ph="{...}" />
-            <marker date="1542712440804" expanded="true" signature="1589:1660" ph="{...}" />
+            <marker date="1542754347965" expanded="false" signature="6:139" ph="..." />
+            <marker date="1542754347965" expanded="true" signature="157:3753" ph="{...}" />
+            <marker date="1542754347965" expanded="true" signature="177:781" ph="{...}" />
+            <marker date="1542754347965" expanded="true" signature="223:775" ph="{...}" />
+            <marker date="1542754347965" expanded="true" signature="807:2317" ph="{...}" />
+            <marker date="1542754347965" expanded="true" signature="884:1125" ph="{...}" />
+            <marker date="1542754347965" expanded="true" signature="1004:1087" ph="{...}" />
+            <marker date="1542754347965" expanded="true" signature="1182:1621" ph="{...}" />
+            <marker date="1542754347965" expanded="true" signature="1314:1576" ph="{...}" />
+            <marker date="1542754347965" expanded="true" signature="1689:2103" ph="{...}" />
+            <marker date="1542754347965" expanded="true" signature="1812:2070" ph="{...}" />
+            <marker date="1542754347965" expanded="true" signature="1954:2056" ph="{...}" />
+            <marker date="1542754347965" expanded="true" signature="2172:2311" ph="{...}" />
+            <marker date="1542754347965" expanded="true" signature="2342:3751" ph="{...}" />
+            <marker date="1542754347965" expanded="true" signature="2412:3126" ph="{...}" />
+            <marker date="1542754347965" expanded="true" signature="3188:3745" ph="{...}" />
           </folding>
         </state>
       </provider>

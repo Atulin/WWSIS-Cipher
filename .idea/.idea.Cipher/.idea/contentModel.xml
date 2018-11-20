@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\student\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\student\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Cipher.958086164.00" t="ExcludeRecursive" />
-    <e p="C:\Users\student\RiderProjects\Cipher" t="IncludeFlat">
+    <e p="C:\Users\Angius\.Rider2018.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Angius\.Rider2018.2\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\Angius\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Angius\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Cipher.-2083862466.00" t="ExcludeRecursive" />
+    <e p="G:\VS Projects\WWSIS-Cipher" t="IncludeFlat">
       <e p="Cipher" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Cipher.csproj" t="IncludeRecursive" />

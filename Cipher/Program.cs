@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 
@@ -9,56 +11,116 @@ namespace Cipher
     {
         static void Main(string[] args)
         {
+            // Get input
             Console.Write("Input string: ");
             string input = Console.ReadLine();
-            byte[] bin = Encoding.Default.GetBytes(input);
-            
+
+            // Get key
             Console.Write("Input key: ");
             string key = Console.ReadLine();
-            byte[] binkey = Encoding.Default.GetBytes(Helpers.FillToSize(key, bin.Length));
 
-            List<byte> bin2 = new List<byte>();
-            foreach (byte b in bin)
-            {
-                bin2.Add((byte) ~b);
-            }
-            
-            string hex = Convert.ToBase64String(bin2.ToArray());
-            
+            // Print encoded
             Console.Write("Output: ");
-            Console.WriteLine(hex);
+            string c = Crypto.Encode(input, key);
+            Console.WriteLine(c);
 
-            byte[] obin = Convert.FromBase64String(hex);
-            
-            List<byte> obin2 = new List<byte>();
-            foreach (byte b in obin)
-            {
-                obin2.Add((byte) ~b);
-            }
-            
-            string output = Encoding.Default.GetString(obin2.ToArray());
-
+            // Print decoded
             Console.Write("Decipher: ");
-            Console.WriteLine(output);
+            string d = Crypto.Decode(c, key);
+            Console.WriteLine(d);
         }
     }
-    
-    class Helpers {
-        public static string FillToSize(string str, int length)
-        {
-            char[] chars = str.ToCharArray();
-            List<char> output = new List<char>();
-            int amount = chars.Length / length;
 
-            for (int i = 0; i < amount; i++)
+    static class Helpers
+    {
+        public static BitArray FillToSize(BitArray filler, int length)
+        {
+            BitArray output = new BitArray(length);
+            
+            for (int i = 0; i < length; i++)
             {
-                foreach (char c in chars)
-                {
-                    output.Add(c);
-                }
+                output[i] = filler[i % filler.Length];
             }
 
-            return new string(output.ToArray());
+            return output;
+        }
+
+        public static string BitArrToHex(BitArray bits)
+        {
+            StringBuilder sb = new StringBuilder(bits.Length / 4);
+
+            for (int i = 0; i < bits.Length; i += 4) {
+                int v = (bits[i] ? 8 : 0) | 
+                        (bits[i + 1] ? 4 : 0) | 
+                        (bits[i + 2] ? 2 : 0) | 
+                        (bits[i + 3] ? 1 : 0);
+
+                sb.Append(v.ToString("x1")); // Or "X1"
+            }
+
+            return sb.ToString();
+        }
+        
+        public static BitArray HexToBitArr(string hexData)
+        {
+            BitArray ba = new BitArray(4 * hexData.Length);
+            for (int i = 0; i < hexData.Length; i++)
+            {
+                byte b = byte.Parse(hexData[i].ToString(), NumberStyles.HexNumber);
+                for (int j = 0; j < 4; j++)
+                {
+                    ba.Set(i * 4 + j, (b & (1 << (3 - j))) != 0);
+                }
+            }
+            return ba;
+        }
+        
+        public static byte[] BitArrToByteArr(BitArray bits)
+        {
+            byte[] ret = new byte[(bits.Length - 1) / 8 + 1];
+            bits.CopyTo(ret, 0);
+            return ret;
+        }
+    }
+
+    static class Crypto
+    {
+        public static string Encode(string message, string key)
+        {
+            // String to byte[]
+            byte[] inputBytes = Encoding.Default.GetBytes(message);
+            byte[] keyBytes = Encoding.Default.GetBytes(key);
+            
+            // byte[] to BitArray
+            BitArray inputBits = new BitArray(inputBytes);
+            BitArray keyBits = new BitArray(keyBytes);
+            
+            // Create full key
+            BitArray finalKey = Helpers.FillToSize(keyBits, inputBits.Length);
+            
+            // Encode message BitArray with full key
+            BitArray outputBits = inputBits.Not().Xor(finalKey);
+            
+            // Return
+            string hex = Helpers.BitArrToHex(outputBits);
+            return hex;
+        }
+
+        public static string Decode(string code, string key)
+        {
+            byte[] keyBytes = Encoding.Default.GetBytes(key);
+            
+            BitArray keyBits = new BitArray(keyBytes);
+            BitArray inBits = Helpers.HexToBitArr(code);
+            
+            // Create full key
+            BitArray finalKey = Helpers.FillToSize(keyBits, inBits.Length);
+            
+            BitArray msgBits = inBits.Xor(finalKey).Not();
+            byte[] msgBytes = Helpers.BitArrToByteArr(msgBits);
+            string msgStr = Encoding.Default.GetString(msgBytes);
+
+            return msgStr;
         }
     }
 }

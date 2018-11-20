@@ -9,3 +9,14 @@ C:\Users\student\RiderProjects\Cipher\Cipher\obj\Debug\netcoreapp2.1\Cipher.Asse
 C:\Users\student\RiderProjects\Cipher\Cipher\obj\Debug\netcoreapp2.1\Cipher.AssemblyInfo.cs
 C:\Users\student\RiderProjects\Cipher\Cipher\obj\Debug\netcoreapp2.1\Cipher.dll
 C:\Users\student\RiderProjects\Cipher\Cipher\obj\Debug\netcoreapp2.1\Cipher.pdb
+G:\VS Projects\WWSIS-Cipher\Cipher\bin\Debug\netcoreapp2.1\Cipher.deps.json
+G:\VS Projects\WWSIS-Cipher\Cipher\bin\Debug\netcoreapp2.1\Cipher.runtimeconfig.json
+G:\VS Projects\WWSIS-Cipher\Cipher\bin\Debug\netcoreapp2.1\Cipher.runtimeconfig.dev.json
+G:\VS Projects\WWSIS-Cipher\Cipher\bin\Debug\netcoreapp2.1\Cipher.dll
+G:\VS Projects\WWSIS-Cipher\Cipher\bin\Debug\netcoreapp2.1\Cipher.pdb
+G:\VS Projects\WWSIS-Cipher\Cipher\obj\Debug\netcoreapp2.1\Cipher.csprojAssemblyReference.cache
+G:\VS Projects\WWSIS-Cipher\Cipher\obj\Debug\netcoreapp2.1\Cipher.csproj.CoreCompileInputs.cache
+G:\VS Projects\WWSIS-Cipher\Cipher\obj\Debug\netcoreapp2.1\Cipher.AssemblyInfoInputs.cache
+G:\VS Projects\WWSIS-Cipher\Cipher\obj\Debug\netcoreapp2.1\Cipher.AssemblyInfo.cs
+G:\VS Projects\WWSIS-Cipher\Cipher\obj\Debug\netcoreapp2.1\Cipher.dll
+G:\VS Projects\WWSIS-Cipher\Cipher\obj\Debug\netcoreapp2.1\Cipher.pdb
